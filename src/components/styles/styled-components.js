@@ -79,7 +79,7 @@ export const Title = styled.h2`
 
 export const Author = styled.h3`
 	margin: ${(props) => props.margin || "0 auto"};
-	margin-top: ${(props) => props.marginTop || ""};
+	margin-top: ${(props) => props.marginTop || "1rem"};
 
 	padding: ${(props) => props.padding || "0.5rem"};
 	font-size: ${(props) => props.fontSize || "1.5em"};
@@ -99,6 +99,7 @@ export const Author = styled.h3`
 		align-items: ${(props) => props.align || "flex-end"};
 		justify-content: ${(props) => props.justify || "flex-end"};
 		color: ${(props) => props.color || "black"};
+		margin-right: ${(props) => props.marginRight || "3rem"};
 
 		font-size: 1.2em;
 		font-weight: bold;

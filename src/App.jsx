@@ -32,10 +32,6 @@ function App() {
 						}
 					/>
 
-					{/* <Route
-	path="/random-poem"
-	element={<RandomPoem />}
-/> */}
 					<Route
 						path="/quotes"
 						element={

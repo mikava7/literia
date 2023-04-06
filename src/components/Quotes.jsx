@@ -63,7 +63,7 @@ const Quotes = () => {
 						>
 							{quote.text}
 						</Title>
-						<Author marginRight={"3rem"}>{quote.author}</Author>
+						<Author marginRight={"20rem"}>{quote.author}</Author>
 					</Details>
 				</div>
 			))}

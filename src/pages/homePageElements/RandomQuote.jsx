@@ -20,7 +20,7 @@ const RandomQuote = () => {
 			) : (
 				<div>
 					<TextContainer>"{randomQuote.text} "</TextContainer>
-					<Author>{randomQuote.author}</Author>
+					<Author marginRight={"20rem"}>{randomQuote.author}</Author>
 				</div>
 			)}
 		</BoxContainer>

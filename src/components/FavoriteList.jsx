@@ -1,16 +1,11 @@
 import React, { useContext, useState } from "react";
 import styled from "styled-components";
 import {
-	PoemBox,
-	ListBox,
 	TextContainer,
 	Title,
-	BoxContainer,
 	Details,
 	Button,
 	Favorites,
-	Added,
-	Loading,
 } from "../components/styles/styled-components.js";
 import { FavoritesContext } from "../Context/FavoritesContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -25,7 +20,6 @@ const FavoriteList = () => {
 		handleRemoveFromFavorites,
 		handleAddToFavorites,
 		favorites,
-		added,
 	} = useContext(FavoritesContext) || {};
 
 	const [selectedFavorite, setSelectedFavorite] = useState(null);
@@ -42,7 +36,7 @@ const FavoriteList = () => {
 
 	return (
 		<div>
-			<Title>Favorites List</Title>
+			<Title marginTop={"2rem"}>Favorites List</Title>
 			<Button onClick={clearFavorites}>Clear all</Button>
 			<ul>
 				{favorites.map((favorite) => (

@@ -8,6 +8,8 @@ In addition, LITERIA has a "Favorites" category where users can store their favo
 The app uses React Context for state management and styled-components for styling.
 Axios is used for data fetching and the "react-multi-carousel" package is used for displaying carousels.
 
+- Live Site URL: [live]( https://melodious-mandazi-e11f23.netlify.app/)
+
 #Features
 Fetches data from three different APIs
 Displays random entities from all three categories on the home page

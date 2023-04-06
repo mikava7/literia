@@ -7,10 +7,11 @@ export default defineConfig({
 		outDir: "build",
 	},
 	server: {
+		fs: {
+			strict: false,
+		},
 		mimeTypes: {
-			"application/javascript": ["js", "jsx"],
-			"text/javascript": ["mjs"],
-			"text/jsx": ["jsx"],
+			"text/javascript": ["js", "jsx"],
 		},
 	},
 });
